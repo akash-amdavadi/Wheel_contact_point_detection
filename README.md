@@ -2,7 +2,7 @@
 
 Monocular, keypoint-based detection of **wheel–ground contact points** from fixed cameras using **YOLOv8 Pose**. The system targets downstream tasks such as estimating inter-vehicle spacing **without explicit camera calibration**.
 
-**Authors:** Akash Mahendrabhai Amdavadi,  Vatsal Anand Pande
+**Authors:** Akash Amdavadi,  Vatsal Anand Pande
 **Affiliation:** Maschinenbau und Verfahrenstechnik, RPTU Kaiserslautern-Landau, Germany
 
 ---
