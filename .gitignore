@@ -1,0 +1,48 @@
+# ===============================
+# YOLOv8 Project .gitignore
+# ===============================
+
+# === Datasets ===
+/dataset/*           # ignore everything in dataset
+!/dataset/data.yaml  # but keep dataset/data.yaml
+
+# === Training outputs ===
+/runs/
+# optional:
+/outputs/
+/checkpoints/
+
+# === Python cache & logs ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# === Environment files ===
+venv/
+.venv/
+.env
+.env.*
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === IDE/project settings ===
+.vscode/
+.idea/
+*.iml
+
+# === Ignore test videos or large media ===
+/test/*.mp4
+/test/*.avi
+/test/*.mov
+
+# === Node/JS stuff if any ===
+node_modules/
+
+# === NOTE ===
+# YOLO weights (.pt) are NOT ignored here.
+# Track them with Git LFS instead:
+#   git lfs track "*.pt"

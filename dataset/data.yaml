@@ -1,0 +1,15 @@
+train: C:/Users/akash/Documents/Seminar Electromobility/wheel_contact_point_detection/dataset/images/train
+val: C:/Users/akash/Documents/Seminar Electromobility/wheel_contact_point_detection/dataset/images/val
+
+kpt_shape: [14, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+nc: 9
+names: ['0', 'person', 'vehicle_10_wheels', 'vehicle_14_wheels', 'vehicle_2_wheels', 'vehicle_3_wheels', 'vehicle_4_wheels', 'vehicle_6_wheels', 'vehicle_8_wheels']
+
+roboflow:
+  workspace: trafficanalyse
+  project: vehicle_wheel_pose
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trafficanalyse/vehicle_wheel_pose/dataset/13
