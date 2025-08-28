@@ -34,6 +34,16 @@ This project trains and deploys a YOLOv8 pose model to detect wheel–ground con
 
 
 ---
+## Requirements
+- **Python:** 3.9 – 3.11  
+- **Core packages:**  
+  - PyTorch (CPU or CUDA build)  
+  - Ultralytics (YOLOv8)  
+  - OpenCV  
+  - NumPy  
+  - Matplotlib
+
+---
 
 ## Dataset
 - **Size:** ~1,150 labeled frames (1920×1080 @ 24 FPS) captured with a **GoPro Hero5**.  
@@ -69,5 +79,5 @@ This project trains and deploys a YOLOv8 pose model to detect wheel–ground con
 
 
 
-
+---
 
